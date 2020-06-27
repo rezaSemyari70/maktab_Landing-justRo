@@ -73,6 +73,15 @@
     position: relative;
 }
 
+.boxLogo-sm{
+    position: relative;
+    width: 365px;
+    height: 192px;
+    background-image: url(../images/009_logo_Bg-3.svg);
+    background-repeat: no-repeat;
+    margin-right: -130px !important;
+}
+
 .bgLogo-lg{
     width: 406px !important;
     height: 219px !important;
@@ -89,12 +98,27 @@
     background-color: $firstColor;
 }
 
+.logo-sm{
+    position: absolute;
+    top: 55px;
+    right:185px !important;
+    width: 72px !important;
+    height: 72px !important;
+    background-color: $firstColor;
+}
+
 .tileLogo{
     position: absolute;
     top: 40px;
     right: 300px;
     @include fontTitle1;
     color : $firstColor;
+}
+
+.tileLogo-sm{
+    @extend .tileLogo;
+    right: 265px;
+    top: 75px;
 }
 
 ul {
