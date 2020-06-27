@@ -1,19 +1,11 @@
-// Bace Colors
-$firstColor : rgb(33, 155, 236);
+@import './typograhpy';
+@import './theme';
+@import './mixin';
 
 
 // ********** Header Site ***********
 
 // ---- sm & md size header ----
-.header{
-    box-shadow:2px 2px 15px #e4e4e4; 
-    height: 80px;
-}
-
-.navbar{
-    height: 100%;
-}
-
 .form-control{
     width: 60vw !important;
 }
@@ -25,7 +17,7 @@ $firstColor : rgb(33, 155, 236);
 
 .fa-search {
     margin-right: 10px;
-    margin-left: 23px;
+    margin-left: 23px !important;
     font-size: 24px !important;
     color: $firstColor ;
 }
@@ -50,8 +42,7 @@ $firstColor : rgb(33, 155, 236);
 .navButton {
     width: 40px !important;
     margin-right: 25px !important;
-    display: flex !important;
-    justify-content: center !important;
+    @include flex-h;
     align-self: flex-start !important;
     margin-left: 0px !important;
 }
@@ -64,12 +55,72 @@ $firstColor : rgb(33, 155, 236);
 }
 
 .nav-link{
-    width: 90px !important;
-    display: flex !important;
-    justify-content: center !important;
-    padding: 2px !important;
-    font-size: 14px;
+    min-width: 80px !important;
+    @include flex-h;
+    padding: 1px !important;
+    @include fontStyle1;
 }
 
+// ----- lg $ xl size header ------
 
+.navMenu-lg{
+    padding-left: 0px !important;
+    padding-right: 31px !important;
+    padding-top: 37px !important;
+}
+
+.boxLogo-lg{
+    position: relative;
+}
+
+.bgLogo-lg{
+    width: 406px !important;
+    height: 219px !important;
+    background-image: url(../images/009_logo_Bg-3.svg);
+    background-repeat: no-repeat;
+}
+
+.logo-lg{
+    position: absolute;
+    top: 21px;
+    right:220px !important;
+    width: 72px !important;
+    height: 72px !important;
+    background-color: $firstColor;
+}
+
+.tileLogo{
+    position: absolute;
+    top: 40px;
+    right: 300px;
+    @include fontTitle1;
+    color : $firstColor;
+}
+
+ul {
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+li{
+    list-style-type: none !important;
+}
+
+.btnDownload{
+    padding: 0px;
+    @include flex;
+    @include btn1;
+    @include textBtn;
+}
+
+.redialWaveHeader{
+    position: absolute;
+    top:0px;
+    left: 0px;
+    width: 383px;
+    height: 374px;
+    background-image: url(../images/010_header_wave.png);
+    background-repeat: no-repeat;
+    z-index: -1 !important;
+}
 

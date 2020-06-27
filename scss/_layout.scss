@@ -1,0 +1,37 @@
+* {
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
+body {
+    direction: rtl;
+    overflow: hidden !important;
+}
+
+// ****** Header ******
+.header {
+    box-shadow: 2px 2px 15px #e4e4e4;
+    height: 80px;
+    direction: ltr;
+
+}
+
+.navbar {
+    height: 100%;
+}
+
+.linkMenu {
+    width: 80px !important;
+}
+
+@media (min-width: 992px) {
+    .bgLogo-lg {
+        margin-right: -180px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .navMenu-lg{
+        padding-right: 0px !important;
+    }
+}
