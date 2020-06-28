@@ -13,7 +13,6 @@ body {
     box-shadow: 2px 2px 15px #e4e4e4;
     height: 80px;
     direction: ltr;
-
 }
 
 .navbar {
@@ -28,11 +27,44 @@ body {
     .bgLogo-lg {
         margin-right: -180px;
     }
+
+    .slider-betterKnow {
+        width: 700px !important;
+        height: 450px !important;
+    }
 }
 
 @media (max-width: 1200px) {
-    .navMenu-lg{
+    .navMenu-lg {
         padding-right: 0px !important;
     }
 }
 
+@media (min-width: 1200px) {
+    .sliderBox {
+        width: 95vw;
+        padding-right: 150px !important;
+    }
+}
+
+@media (min-width: 1400px) {
+    .sliderBox {
+        width: 85vw;
+        padding-right: 150px !important;
+    }
+}
+
+@media (min-width: 1800px) {
+    .sliderBox {
+        width: 70vw;
+        padding-right: 150px !important;
+    }
+}
+
+
+
+
+
+.slider-sm {
+    float: left;
+}

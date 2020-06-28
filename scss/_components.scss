@@ -6,7 +6,7 @@
 // ********** Header Site ***********
 
 // ---- sm & md size header ----
-.form-control{
+.form-control {
     width: 60vw !important;
 }
 
@@ -19,13 +19,13 @@
     margin-right: 10px;
     margin-left: 23px !important;
     font-size: 24px !important;
-    color: $firstColor ;
+    color: $firstColor;
 }
 
-.fa.fa-bars{
+.fa.fa-bars {
     width: 32px;
     height: 22px;
-    color: $firstColor ;
+    color: $firstColor;
 }
 
 .navbar-toggler {
@@ -33,9 +33,10 @@
     border: none !important;
     padding-top: 5px !important;
     outline: none !important;
+    z-index: 10000;
 }
 
-.navbar-brand{
+.navbar-brand {
     color: $firstColor !important;
 }
 
@@ -47,33 +48,31 @@
     margin-left: 0px !important;
 }
 
-.collapse{
+.collapse {
     position: absolute;
     top: 80px;
     right: 20px;
     background-color: #ffffffa1;
+    z-index: 10000;
 }
 
-.nav-link{
+.nav-link {
     min-width: 80px !important;
     @include flex-h;
     padding: 1px !important;
     @include fontStyle1;
 }
 
-// ----- lg $ xl size header ------
-
-.navMenu-lg{
-    padding-left: 0px !important;
-    padding-right: 31px !important;
-    padding-top: 37px !important;
+.logo-sm {
+    position: absolute;
+    top: 55px;
+    right: 185px !important;
+    width: 72px !important;
+    height: 72px !important;
+    background-color: $firstColor;
 }
 
-.boxLogo-lg{
-    position: relative;
-}
-
-.boxLogo-sm{
+.boxLogo-sm {
     position: relative;
     width: 365px;
     height: 192px;
@@ -82,40 +81,45 @@
     margin-right: -130px !important;
 }
 
-.bgLogo-lg{
+// ----- lg $ xl size header ------
+
+.navMenu-lg {
+    padding-left: 0px !important;
+    padding-right: 31px !important;
+    padding-top: 37px !important;
+}
+
+.boxLogo-lg {
+    position: relative;
+}
+
+
+
+.bgLogo-lg {
     width: 406px !important;
     height: 219px !important;
     background-image: url(../images/009_logo_Bg-3.svg);
     background-repeat: no-repeat;
 }
 
-.logo-lg{
+.logo-lg {
     position: absolute;
     top: 21px;
-    right:220px !important;
+    right: 220px !important;
     width: 72px !important;
     height: 72px !important;
     background-color: $firstColor;
 }
 
-.logo-sm{
-    position: absolute;
-    top: 55px;
-    right:185px !important;
-    width: 72px !important;
-    height: 72px !important;
-    background-color: $firstColor;
-}
-
-.tileLogo{
+.tileLogo {
     position: absolute;
     top: 40px;
     right: 300px;
     @include fontTitle1;
-    color : $firstColor;
+    color: $firstColor;
 }
 
-.tileLogo-sm{
+.tileLogo-sm {
     @extend .tileLogo;
     right: 265px;
     top: 75px;
@@ -126,20 +130,20 @@ ul {
     padding: 0px !important;
 }
 
-li{
+li {
     list-style-type: none !important;
 }
 
-.btnDownload{
+.btnDownload {
     padding: 0px;
     @include flex;
     @include btn1;
     @include textBtn;
 }
 
-.redialWaveHeader{
+.redialWaveHeader {
     position: absolute;
-    top:0px;
+    top: 0px;
     left: 0px;
     width: 383px;
     height: 374px;
@@ -148,3 +152,65 @@ li{
     z-index: -1 !important;
 }
 
+.sliderTraveling-lg{
+    margin-top: 150px !important;
+}
+
+.sliderBox {
+    width: 90vw;
+}
+
+.slider-betterKnow {
+    position: relative;
+    width: 834px;
+    height: 505px;
+    background-image: url(../images/007_slide3_bg.png);
+    background-repeat: no-repeat;
+}
+
+.slider-betterKnow img {
+    width: 734px;
+    height: 405px;
+}
+
+.titleBetterKnow {
+    @include fontTitle2;
+    color: $firstColor;
+    margin-bottom: 15px !important;
+}
+
+.underLine {
+    width: 70px;
+    height: 3px;
+    border-bottom: 1px solid $firstColor;
+    position: absolute;
+    background-color: $firstColor;
+}
+
+.textBetterKnow {
+    @include fontStyle1;
+    font-size: 14px !important;
+    color: var(--black);
+    margin-top: 47px !important;
+    line-height: 1.71 !important;
+}
+
+.bgTraveling-lg {
+    position: absolute;
+    left : -15px;
+    top: -150px;
+    width: 503px;
+    height: 655px;
+    background-image: url(../images/006_slide3_traveling.svg);
+    background-repeat: no-repeat;
+}
+
+.birdsPic{
+    position: absolute;
+    left : 355px;
+    top: -150px;
+    width: 503px;
+    height: 655px;
+    background-image: url(../images/008_slide3_birds.png);
+    background-repeat: no-repeat;
+}
