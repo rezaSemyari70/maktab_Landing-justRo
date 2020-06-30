@@ -5,7 +5,7 @@
 
 body {
     direction: rtl;
-    overflow: hidden !important;
+    overflow-x: hidden !important;
 }
 
 // ****** Header ******
@@ -32,6 +32,7 @@ body {
         width: 700px !important;
         height: 450px !important;
     }
+
 }
 
 @media (max-width: 1200px) {
@@ -59,12 +60,4 @@ body {
         width: 70vw;
         padding-right: 150px !important;
     }
-}
-
-
-
-
-
-.slider-sm {
-    float: left;
 }

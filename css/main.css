@@ -194,12 +194,7 @@ li {
   background-repeat: no-repeat;
 }
 
-.slider-betterKnow img {
-  width: 734px;
-  height: 405px;
-}
-
-.titleBetterKnow {
+.titleBetterKnow, .titleBetterKnow-sm {
   font-family: Shabnam;
   font-size: 40px;
   font-weight: bold;
@@ -211,7 +206,7 @@ li {
   margin-bottom: 15px !important;
 }
 
-.underLine {
+.underLine, .underLine-sm {
   width: 70px;
   height: 3px;
   border-bottom: 1px solid #1a87cf;
@@ -219,7 +214,7 @@ li {
   background-color: #1a87cf;
 }
 
-.textBetterKnow {
+.textBetterKnow, .textBetterKnow-sm {
   font-family: Shabnam;
   font-size: 16px;
   font-weight: 300;
@@ -255,6 +250,107 @@ li {
   background-repeat: no-repeat;
 }
 
+.underLine-sm {
+  right: 31px;
+  padding: 0px 31px !important;
+}
+
+.contentBetterKnow {
+  margin-top: 29px !important;
+}
+
+.titleBetterKnow-sm {
+  font-size: 30px;
+  padding: 0px 31px !important;
+}
+
+.textBetterKnow-sm {
+  padding: 0px 31px !important;
+}
+
+.sliderTraveling-sm {
+  position: relative;
+  width: 100vw;
+  height: 364px;
+  overflow: hidden !important;
+  padding: 0px !important;
+  padding-bottom: 40px !important;
+}
+
+.bgTraveling-sm {
+  position: relative;
+  width: 550px;
+  height: 80%;
+  background-image: url(../images/002_slide1_bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0px  !important;
+  right: 0px;
+}
+
+.picWoman {
+  position: absolute;
+  width: 239px;
+  height: 350px;
+  top: -70px;
+  left: 5px;
+}
+
+.picBallon1 {
+  position: absolute;
+  width: 42px;
+  height: 57px;
+  top: 0px;
+  right: 54px !important;
+}
+
+.picBallon2 {
+  position: absolute;
+  width: 24px;
+  height: 33px;
+  top: 50px;
+  right: 19px !important;
+}
+
+.picBallon3 {
+  position: absolute;
+  width: 29px;
+  height: 39px;
+  top: -60px;
+  left: 5px !important;
+}
+
+.radioBtns-sm {
+  margin-top: 0px !important;
+  margin-bottom: -100px !important;
+}
+
+.radioBtns-lg {
+  margin-top: 63px !important;
+  margin-bottom: 54px !important;
+}
+
+.radioBtn {
+  width: 12px;
+  height: 12px;
+  background-color: #bdbdbd;
+  border-radius: 100%;
+  border: none;
+  cursor: pointer;
+  margin-left: 9px !important;
+  margin-right: 9px  !important;
+}
+
+.activRadioBtn {
+  width: 24px;
+  height: 12px;
+  border-radius: 6px;
+  background-color: #ff7043;
+  border: none;
+  cursor: pointer;
+  margin-right: 7px !important;
+}
+
 @font-face {
   font-family: Shabnam;
   src: url("../font/Shabnam.eot");
@@ -269,7 +365,7 @@ li {
 
 body {
   direction: rtl;
-  overflow: hidden !important;
+  overflow-x: hidden !important;
 }
 
 .header {
@@ -321,9 +417,5 @@ body {
     width: 70vw;
     padding-right: 150px !important;
   }
-}
-
-.slider-sm {
-  float: left;
 }
 /*# sourceMappingURL=main.css.map */
