@@ -23,6 +23,9 @@ body {
     width: 80px !important;
 }
 
+
+
+
 @media (min-width: 992px) {
     .bgLogo-lg {
         margin-right: -180px;
@@ -33,6 +36,36 @@ body {
         height: 450px !important;
     }
 
+    .rowOption {
+        width: auto !important;
+        height: 53px !important;
+    }
+
+    .lineCenter {
+        border-left: 2px solid $firstColor;
+    }
+
+    .reserveContent {
+        margin-top: -70px !important;
+    }
+
+    .optionButtons {
+        margin-bottom: 0px;
+    }
+
+    .screenMobile {
+        width: 383px;
+        height: 750px;
+        margin-bottom: 0px !important;
+    }
+
+    .textReserve {
+        padding: 0px !important;
+    }
+
+    .titleReserve {
+        margin-bottom: 41px !important;
+    }
 }
 
 @media (max-width: 1200px) {
@@ -46,12 +79,28 @@ body {
         width: 95vw;
         padding-right: 150px !important;
     }
+
+    .titleReserve {
+        font-size: 30px !important;
+    }
+
+    .textReserve {
+        max-width: 450px !important;
+    }
+
+    .reserveContent {
+        margin-top: -80px !important;
+    }
 }
 
 @media (min-width: 1400px) {
     .sliderBox {
         width: 85vw;
         padding-right: 150px !important;
+    }
+
+    .reserveContent {
+        margin-top: -140px !important;
     }
 }
 

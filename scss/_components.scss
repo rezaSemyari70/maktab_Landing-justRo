@@ -223,11 +223,11 @@ li {
 .titleBetterKnow-sm {
     @extend .titleBetterKnow;
     font-size: 30px;
-    padding: 0px 31px !important ;
+    padding: 0px 31px !important;
 }
 
-.textBetterKnow-sm{
-    @extend .textBetterKnow ;
+.textBetterKnow-sm {
+    @extend .textBetterKnow;
     padding: 0px 31px !important;
 }
 
@@ -247,8 +247,8 @@ li {
     background-image: url(../images/002_slide1_bg.png);
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 0px  !important;
-    
+    padding: 0px !important;
+
     right: 0px;
 }
 
@@ -272,7 +272,7 @@ li {
     position: absolute;
     width: 24px;
     height: 33px;
-    top: 50px ;
+    top: 50px;
     right: 19px !important;
 }
 
@@ -291,7 +291,7 @@ li {
     margin-bottom: -100px !important;
 }
 
-.radioBtns-lg{
+.radioBtns-lg {
     margin-top: 63px !important;
     margin-bottom: 54px !important;
 }
@@ -303,8 +303,8 @@ li {
     border-radius: 100%;
     border: none;
     cursor: pointer;
-    margin-left: 9px !important ;
-    margin-right: 9px  !important;
+    margin-left: 9px !important;
+    margin-right: 9px !important;
 }
 
 .activRadioBtn {
@@ -317,3 +317,82 @@ li {
     margin-right: 7px !important;
 }
 
+
+// ---- Waves Of Sea ----
+.boxWaves {
+    width: 100vw !important;
+}
+
+// ---- Reserve Content ----
+
+.reserveContent {
+    overflow-x: hidden;
+    margin-top: 0px !important;
+}
+
+.optionButtons {
+    margin-bottom: 30px !important;
+}
+
+.optionReserve {
+    width: 72px;
+    height: 72px;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid $firstColor;
+    box-sizing: border-box !important;
+    background: white;
+    @include flex;
+}
+
+.rowOption {
+    width: 17px !important;
+    height: 53px !important;
+}
+
+.lineCenter {
+    border-left: none;
+}
+
+span[class*=icon] {
+    width: 40px;
+    height: 40px;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    opacity: 0.9;
+    background: $colorIcon1;
+    background: $colorIcon2;
+    background: $colorIcon3;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    font-size: 24px;
+}
+
+.backFlyIcon {
+    background-color: $thirdColor !important;
+
+}
+
+.screenMobile {
+    width: 300px;
+    height: 587px;
+    margin-bottom: 61px !important;
+}
+
+.titleReserve {
+    @extend .titleBetterKnow;
+    font-size: 26px !important;
+    margin-bottom: 31px !important;
+}
+
+.textReserve {
+    @include fontStyle1;
+    font-size: 13px !important;
+    padding-left: 20px !important;
+    padding-right: 31px !important;
+}

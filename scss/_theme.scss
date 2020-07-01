@@ -1,2 +1,11 @@
 // Bace Colors
 $firstColor : rgb(26, 135, 207);
+$secondColor : rgb(135, 200, 243);
+$thirdColor : #e01462;
+$forthColor : #ff66a0 ;
+
+
+$colorIcon1: -moz-linear-gradient(top, $secondColor 0%, $firstColor 100%);
+$colorIcon2: -webkit-linear-gradient(top, $secondColor 0%, $firstColor 100%);
+$colorIcon3: linear-gradient(to bottom, $secondColor 0%, $firstColor 100%);
+
