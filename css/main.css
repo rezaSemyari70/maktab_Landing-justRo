@@ -431,6 +431,134 @@ span[class*=icon] {
   padding-right: 31px !important;
 }
 
+.downloadContent {
+  box-shadow: 2.5px 4.3px 25px 0 #e5e5e5;
+  border-radius: 15px;
+}
+
+.picDownload {
+  width: 100px;
+  height: 88px;
+  margin-top: 30px !important;
+  background-image: url(../images/021_dlbox_icon_download.svg);
+  background-repeat: no-repeat;
+}
+
+.downloadTitle {
+  margin-top: 47px !important;
+  font-family: Shabnam;
+  font-size: 24px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #1a87cf;
+  margin-bottom: 18px !important;
+}
+
+.describeDownload {
+  height: auto;
+  margin-bottom: 0px !important;
+  font-family: Shabnam;
+  font-size: 16px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #333333;
+  margin-bottom: 33px !important;
+}
+
+.inputMobile {
+  padding-left: 40px !important;
+  margin: 0px !important;
+  border-radius: 25px;
+  border: none;
+  border: solid 1px #eeeeee;
+  background-color: #fafafa;
+}
+
+.inputMobile::placeholder {
+  padding-left: 40px !important;
+  color: #9e9e9e;
+}
+
+.downloadButton {
+  margin-top: 21px !important;
+  width: 140px;
+  height: 50px;
+  width: 120px;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+  box-shadow: 0px 7px 20px 0 rgba(227, 84, 39, 0.3);
+  background-image: linear-gradient(to top, #e01462, #ff66a0);
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 21px;
+  color: white;
+}
+
+.describeDownload-2 {
+  font-family: Shabnam;
+  font-size: 16px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #333333;
+  margin-bottom: 14px !important;
+  margin-top: 55px !important;
+}
+
+.btnDownLink {
+  margin-left: 0px !important;
+}
+
+.downloadLink {
+  width: 160px;
+  height: 50px;
+  border-radius: 25px;
+  border: none;
+  box-shadow: 0px 6px 15px 0 rgba(0, 127, 98, 0.25);
+  background-image: linear-gradient(to top, #1a87cf, #87c8f3);
+  cursor: pointer;
+  cursor: pointer;
+  margin-bottom: 30px !important;
+  font-family: Shabnam;
+  font-size: 16px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #333333;
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.whiteIcon {
+  width: 23px;
+  height: 24px;
+  color: white;
+  margin-left: 10px !important;
+}
+
+.bazarIcon {
+  width: 34px;
+  height: 38px;
+  margin-left: 10px !important;
+}
+
 @font-face {
   font-family: Shabnam;
   src: url("../font/Shabnam.eot");
@@ -493,6 +621,37 @@ body {
   }
   .titleReserve {
     margin-bottom: 41px !important;
+  }
+  .describeDownload-2 {
+    margin-bottom: 42px !important;
+  }
+  .downloadButton {
+    margin-top: 0px !important;
+    margin-right: -40px !important;
+  }
+  .downloadLink {
+    margin-left: 30px !important;
+    z-index: 1000000;
+  }
+  .boxButton {
+    margin-bottom: -55px !important;
+  }
+  .downloadTitle {
+    padding-top: 29px !important;
+    margin-top: 0px !important;
+  }
+  .describeDownload {
+    margin-bottom: 24px !important;
+  }
+  .describeDownload-2 {
+    margin-top: 48px !important;
+  }
+  .picDownload {
+    position: absolute;
+    right: 60px !important;
+    top: 74px;
+    width: 128px;
+    height: 112px;
   }
 }
 

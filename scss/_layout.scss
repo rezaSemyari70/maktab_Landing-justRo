@@ -66,6 +66,46 @@ body {
     .titleReserve {
         margin-bottom: 41px !important;
     }
+
+    .describeDownload-2 {
+        margin-bottom: 42px !important;
+    }
+
+    .downloadButton {
+        margin-top: 0px !important;
+        margin-right: -40px !important;
+    }
+
+    .downloadLink {
+        margin-left: 30px !important;
+
+        z-index: 1000000;
+    }
+
+    .boxButton {
+        margin-bottom: -55px !important;
+    }
+
+    .downloadTitle {
+        padding-top: 29px !important;
+        margin-top: 0px !important;
+    }
+
+    .describeDownload {
+        margin-bottom: 24px !important;
+    }
+
+    .describeDownload-2 {
+        margin-top: 48px !important;
+    }
+
+    .picDownload {
+        position: absolute;
+        right: 60px !important;
+        top: 74px;
+        width: 128px;
+        height: 112px;
+    }
 }
 
 @media (max-width: 1200px) {
