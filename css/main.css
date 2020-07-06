@@ -498,7 +498,7 @@ span[class*=icon] {
   color: #9e9e9e;
 }
 
-.downloadButton {
+.downloadButton, .readyButton {
   margin-top: 21px !important;
   width: 140px;
   height: 50px !important;
@@ -571,6 +571,86 @@ span[class*=icon] {
   margin-left: 10px !important;
 }
 
+.readyTravel {
+  position: relative;
+  overflow-x: hidden;
+  margin-top: 61px !important;
+  height: 430px !important;
+}
+
+.bgReady-sm {
+  position: absolute;
+  width: 100vw;
+  height: 100% !important;
+}
+
+.bgReady {
+  position: absolute;
+  width: 100vw !important;
+  height: 100% !important;
+  background-size: cover;
+}
+
+.spaceTopReady-sm {
+  height: 30px !important;
+  width: 100%;
+}
+
+.spaceTopReady-md {
+  height: 123px !important;
+  width: 100%;
+}
+
+.spaceMidReady-sm {
+  height: 44px;
+  width: 100%;
+}
+
+.spaceMidReady-lg {
+  height: 53px;
+  width: 100%;
+}
+
+.titleReady-sm, .titleReady-lg {
+  font-family: Shabnam;
+  font-size: 40px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  font-size: 30px;
+  color: white;
+  padding-bottom: 44px !important;
+}
+
+.titleReady-lg {
+  font-size: 24px !important;
+}
+
+.textReady {
+  font-family: Shabnam;
+  font-size: 16px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #333333;
+  color: white;
+}
+
+.leftArrow {
+  width: 16px;
+  height: 11px;
+  margin-left: 10px !important;
+}
+
+.readyButton {
+  width: 160px;
+}
+
 @font-face {
   font-family: Shabnam;
   src: url("../font/Shabnam.eot");
@@ -637,7 +717,7 @@ body {
   .describeDownload-2 {
     margin-bottom: 42px !important;
   }
-  .downloadButton {
+  .downloadButton, .readyButton {
     margin-top: 0px !important;
     margin-right: -40px !important;
   }
@@ -667,6 +747,9 @@ body {
   }
   .inputMobile::placeholder {
     padding-left: 40px !important;
+  }
+  .readyTravel {
+    margin-top: 104px !important;
   }
 }
 
