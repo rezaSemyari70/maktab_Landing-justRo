@@ -165,6 +165,13 @@ li {
   line-height: normal;
   letter-spacing: normal;
   color: #ffffff;
+  cursor: pointer !important;
+  outline: none !important;
+  z-index: 10;
+}
+
+.leftSideHeader {
+  z-index: -2;
 }
 
 .redialWaveHeader {
@@ -492,6 +499,7 @@ span[class*=icon] {
   border: none;
   border: solid 1px #eeeeee;
   background-color: #fafafa;
+  outline: none !important;
 }
 
 .inputMobile::placeholder, .getEmail::placeholder {
@@ -514,6 +522,7 @@ span[class*=icon] {
   cursor: pointer;
   padding-top: 21px;
   color: white;
+  outline: none !important;
 }
 
 .describeDownload-2 {
@@ -556,6 +565,7 @@ span[class*=icon] {
   color: white;
   font-weight: bold;
   font-size: 14px;
+  outline: none !important;
 }
 
 .whiteIcon {
@@ -649,6 +659,7 @@ span[class*=icon] {
 
 .readyButton {
   width: 160px;
+  outline: none !important;
 }
 
 .ideaTitle {

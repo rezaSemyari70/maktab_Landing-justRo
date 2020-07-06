@@ -139,6 +139,13 @@ li {
     @include flex;
     @include btn1;
     @include textBtn;
+    cursor: pointer !important;
+    outline: none !important;
+    z-index: 10;
+}
+
+.leftSideHeader{
+    z-index: -2;
 }
 
 .redialWaveHeader {
@@ -444,6 +451,7 @@ span[class*=icon] {
     border: none;
     border: solid 1px #eeeeee;
     background-color: #fafafa;
+    outline: none !important;
 }
 
 .inputMobile::placeholder {
@@ -460,6 +468,7 @@ span[class*=icon] {
     cursor: pointer;
     padding-top: 21px;
     color: white;
+    outline: none !important;
 }
 
 .describeDownload-2 {
@@ -486,6 +495,7 @@ span[class*=icon] {
     color: white;
     font-weight: bold;
     font-size: 14px;
+    outline: none !important;
 }
 
 .whiteIcon {
@@ -569,6 +579,7 @@ span[class*=icon] {
 .readyButton {
     @extend .downloadButton;
     width: 160px;
+    outline: none !important;
 }
 
 .ideaTitle {
