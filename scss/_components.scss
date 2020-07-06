@@ -523,22 +523,22 @@ span[class*=icon] {
     background-size: cover;
 }
 
-.spaceTopReady-sm{
+.spaceTopReady-sm {
     height: 30px !important;
     width: 100%;
 }
 
-.spaceTopReady-md{
+.spaceTopReady-md {
     height: 123px !important;
     width: 100%;
 }
 
-.spaceMidReady-sm{
+.spaceMidReady-sm {
     height: 44px;
     width: 100%;
 }
 
-.spaceMidReady-lg{
+.spaceMidReady-lg {
     height: 53px;
     width: 100%;
 }
@@ -569,4 +569,90 @@ span[class*=icon] {
 .readyButton {
     @extend .downloadButton;
     width: 160px;
+}
+
+.ideaTitle {
+    @include fontTitle1;
+    padding-bottom: 29px !important;
+}
+
+.textIdea {
+    @include fontStyle1;
+    color: #000000;
+}
+
+.textIdea-sm {
+    padding-bottom: 44px !important;
+}
+
+.textIdea-lg {
+    padding-bottom: 54px !important;
+}
+
+.describeGetEmail {
+    @include fontStyle1;
+}
+
+.boxOptionTravel {
+    height: 200px !important;
+    overflow-x: scroll;
+    margin-bottom: 63px !important;
+}
+
+.boxOptionTravel::-webkit-scrollbar {
+    display: none;
+}
+
+.OptionTravel {
+    width: 222px !important;
+    height: 156.6px !important;
+    margin-left: 10px !important;
+}
+
+.OptionTravel img {
+    width: 223px !important;
+    height: 156.6px !important;
+    border-radius: 10px;
+}
+
+.OptionTravel img:hover {
+    box-shadow: 2px 2px 6px 5px #969696;
+}
+
+.topicTravel {
+    position: absolute;
+    left: 80px !important;
+    bottom: 13px;
+    color: white;
+    font-size: 18px;
+    font-family: Shabnam;
+}
+
+.labelTopicTravel{
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    border-radius: 0px 0px 10px 10px;
+    width: 100% !important;
+    height: 50px;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.6;
+}
+
+.backSendEmail {
+    padding-top: 36px !important;
+    background-color: #e1fff8;
+}
+
+.getEmail {
+    @extend .inputMobile;
+    width: 330px !important;
+    height: 50px !important;
+    outline: none;
+    padding-left: 20px !important;
+}
+
+.sectionEmail {
+    margin-top: 40px !important;
+    padding-bottom: 100px !important;
 }

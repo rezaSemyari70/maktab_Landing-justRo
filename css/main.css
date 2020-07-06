@@ -484,7 +484,7 @@ span[class*=icon] {
   margin-bottom: 33px !important;
 }
 
-.inputMobile {
+.inputMobile, .getEmail {
   padding-left: 10px !important;
   height: 50px;
   margin: 0px !important;
@@ -494,7 +494,7 @@ span[class*=icon] {
   background-color: #fafafa;
 }
 
-.inputMobile::placeholder {
+.inputMobile::placeholder, .getEmail::placeholder {
   color: #9e9e9e;
 }
 
@@ -651,6 +651,114 @@ span[class*=icon] {
   width: 160px;
 }
 
+.ideaTitle {
+  font-family: Shabnam;
+  font-size: 24px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  padding-bottom: 29px !important;
+}
+
+.textIdea {
+  font-family: Shabnam;
+  font-size: 16px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #333333;
+  color: #000000;
+}
+
+.textIdea-sm {
+  padding-bottom: 44px !important;
+}
+
+.textIdea-lg {
+  padding-bottom: 54px !important;
+}
+
+.describeGetEmail {
+  font-family: Shabnam;
+  font-size: 16px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #333333;
+}
+
+.boxOptionTravel {
+  height: 200px !important;
+  overflow-x: scroll;
+  margin-bottom: 63px !important;
+}
+
+.boxOptionTravel::-webkit-scrollbar {
+  display: none;
+}
+
+.OptionTravel {
+  width: 222px !important;
+  height: 156.6px !important;
+  margin-left: 10px !important;
+}
+
+.OptionTravel img {
+  width: 223px !important;
+  height: 156.6px !important;
+  border-radius: 10px;
+}
+
+.OptionTravel img:hover {
+  box-shadow: 2px 2px 6px 5px #969696;
+}
+
+.topicTravel {
+  position: absolute;
+  left: 80px !important;
+  bottom: 13px;
+  color: white;
+  font-size: 18px;
+  font-family: Shabnam;
+}
+
+.labelTopicTravel {
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  border-radius: 0px 0px 10px 10px;
+  width: 100% !important;
+  height: 50px;
+  background-color: black;
+  opacity: 0.6;
+}
+
+.backSendEmail {
+  padding-top: 36px !important;
+  background-color: #e1fff8;
+}
+
+.getEmail {
+  width: 330px !important;
+  height: 50px !important;
+  outline: none;
+  padding-left: 20px !important;
+}
+
+.sectionEmail {
+  margin-top: 40px !important;
+  padding-bottom: 100px !important;
+}
+
 @font-face {
   font-family: Shabnam;
   src: url("../font/Shabnam.eot");
@@ -745,11 +853,14 @@ body {
     width: 128px;
     height: 112px;
   }
-  .inputMobile::placeholder {
+  .inputMobile::placeholder, .getEmail::placeholder {
     padding-left: 40px !important;
   }
   .readyTravel {
     margin-top: 104px !important;
+  }
+  .backSendEmail {
+    background-color: white;
   }
 }
 
