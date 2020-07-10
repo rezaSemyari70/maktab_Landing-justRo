@@ -747,7 +747,7 @@ span[class*=icon] {
   left: 0px;
   bottom: 0px;
   border-radius: 0px 0px 10px 10px;
-  width: 100% !important;
+  width: 223px !important;
   height: 50px;
   background-color: black;
   opacity: 0.6;
@@ -768,6 +768,125 @@ span[class*=icon] {
 .sectionEmail {
   margin-top: 40px !important;
   padding-bottom: 100px !important;
+}
+
+.contentFooter {
+  position: relative;
+  background-image: url(../images/025_footer_Bg.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: -50px !important;
+}
+
+.telegramIcon {
+  width: 32px !important;
+  height: auto !important;
+  cursor: pointer;
+}
+
+.instagramIcon {
+  width: 45px !important;
+  height: auto !important;
+  cursor: pointer;
+}
+
+.twitterIcon {
+  width: 45px !important;
+  height: auto !important;
+  cursor: pointer;
+}
+
+.backSocialIcon1, .backSocialIcon2, .backSocilIcon-lg {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  width: 64px;
+  height: 64px;
+  background-image: linear-gradient(to bottom, #87c8f3 0%, #1a87cf 100%);
+}
+
+.backSocialIcon2 {
+  background-image: linear-gradient(to bottom, #ff66a0 0%, #e01462 100%);
+}
+
+.backSocilIcon-lg {
+  background-image: linear-gradient(to bottom, #ffffff, #dddddd);
+}
+
+.contentFooter a {
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+  list-style-type: circle !important;
+  font-family: Shabnam;
+  font-size: 16px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #333333;
+  font-size: 13px;
+  color: white;
+}
+
+.email-lg, .phone-lg {
+  font-size: 13px !important;
+}
+
+.disc {
+  width: 8px !important;
+  height: 8px !important;
+  border: 1px solid white;
+  margin-left: 12px !important;
+}
+
+.backLogoFooter {
+  width: 439px !important;
+  height: 106px !important;
+}
+
+.logoFooter, .logoFooter-lg {
+  position: absolute;
+  bottom: -50px !important;
+  width: 72px !important;
+  height: 72px !important;
+  background-color: #1a87cf;
+}
+
+.logoFooter-lg {
+  position: absolute;
+  top: -30px !important;
+}
+
+.textCopyRight {
+  position: absolute;
+  right: 90px;
+  top: 55px;
+  width: 250px !important;
+  font-family: Shabnam;
+  font-size: 16px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #333333;
+  font-size: 13px !important;
+  color: white;
+}
+
+.copyRightIcon {
+  position: absolute;
+  color: white;
+  bottom: 20px;
+  right: 60px;
+}
+
+.contentFooter a:hover {
+  text-decoration: none;
 }
 
 @font-face {
